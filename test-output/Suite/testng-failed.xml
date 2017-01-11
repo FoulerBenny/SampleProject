@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.in.testScripts.DeliveryEstimationClass">
+        <methods>
+          <include name="deliveryEstimationPincode"/>
+          <include name="deliveryEstimationChangePincode"/>
+          <include name="intitalSetup"/>
+          <include name="launch_App"/>
+        </methods>
+      </class> <!-- com.in.testScripts.DeliveryEstimationClass -->
+      <class name="com.in.testScripts.AddressScenario">
+        <methods>
+          <include name="addNewAddressInMyOrders"/>
+          <include name="deleteAddressInMyOrders"/>
+          <include name="editAddressInCheckOutPage"/>
+          <include name="addNewAddressInCheckOutPage"/>
+        </methods>
+      </class> <!-- com.in.testScripts.AddressScenario -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
